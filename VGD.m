@@ -1,3 +1,4 @@
+clear all
 syms t
 x=1-t/10;
 Dx=diff(x);
@@ -27,12 +28,13 @@ pause(0.001)
 end
 xi=inline(x);
 X(i+1,:)=xi(tp);
-
+%%
 [X0,Y] = meshgrid(tp,tap);
+%
 figure(2)
 mesh(X0,Y,X)
-axis([0 tf 0 al*(r)])
-
+axis([0 ft 0 al*(r) -1 1])
+%
 ylabel('Virtual Time ( \tau)','Interpreter','Tex')
 xlabel('Real Time (t)','Interpreter','Tex')
 zlabel('x(t,\tau)','Interpreter','Tex')
