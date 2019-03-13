@@ -14,7 +14,7 @@ In this figure we can see different curves for each iteration, clearly they are 
 Each iteration is an step in the virtual time "tau". So we can have a plot of the curve vs iterations, or equivalently, curve vs virtual time, or even more, x(t,tau) vs (t,tau) as follows:
 
 <p align="center">
-<img src="graphics/xtttau.jpg">
+<img src="graphics/xttau.jpg">
 </p>
 
 We can see also that as tau goes to infinity, the curve converges to the optimal solution (Showed before as the black solid line).
