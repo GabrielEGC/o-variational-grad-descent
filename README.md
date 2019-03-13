@@ -4,7 +4,8 @@ This research looks for some way to generalize the classic gradient descent, but
 We reduce the problem to partial differential equation with two times. One is the time of the system evolution, and the other is the "virtual time", a continous version of the iterations performed analogously to the iterations of classic gradient descent.
 
 Talking to pure mathematical friends, they told me that that concept is actually "foliations", so its closer to pure maths than engineering.
-However research can be improved by getting some fast ways to compute the solution of the partial differential equations with numerical analysis.
+
+Example is provided in Matlab code. In this case we are solving with this method an LQR problem to understand how does this partial differential equations behaves. We are using only the single integrator with LQR. However research can be improved by getting some fast ways to compute the solution of the partial differential equations with numerical analysis.
 
 <p align="center">
 <img src="graphics/1D-GFD.jpg">
